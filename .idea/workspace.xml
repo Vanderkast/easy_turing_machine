@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="840517bb-1910-4fcc-ba4e-b00e83615fe0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/ActionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/CharAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/CharStreamCursor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/CharEqualAndAppendAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/HAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/StartAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/lib/InternalState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/lib/Machine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/lib/action/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/lib/action/ActionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/lib/action/ActionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/lib/action/ActionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/lib/cursor/Cursor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/lib/cursor/CursorException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/InternalState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/ConstStringAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/EqualSignAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/StringAppendAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/VarNameAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/WhiteSpaceAppendAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vanderkast/etm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/ActionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/ActionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/CharAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/CharAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/CharEqualAndAppendAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/CharEqualAndAppendAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/HAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/StartAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/RegexMatchingAppendAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vanderkast/etm/lib/action/ActionFactory.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,65 +23,52 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/lib/InternalState.java">
+        <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/ActionFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="285">
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/ActionFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/ConstStringAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="330">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/CharAction.java">
+        <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/EqualSignAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="255">
+              <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="20" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/HAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#1031#1032#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,44 +77,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/CharEqualAndAppendAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state>
+              <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/lib/action/ActionException.java">
+        <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/WhiteSpaceAppendAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="135">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/lib/action/Action.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/lib/action/ActionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -179,16 +138,26 @@
         <option value="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/CharStreamCursor.java" />
         <option value="$PROJECT_DIR$/src/com/vanderkast/etm/lib/action/Action.java" />
         <option value="$PROJECT_DIR$/src/com/vanderkast/etm/lib/action/ActionException.java" />
-        <option value="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/CharAction.java" />
-        <option value="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/StartAction.java" />
         <option value="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/HAction.java" />
         <option value="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/CharEqualAction.java" />
+        <option value="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/CharListEqualAndAppendAction.java" />
+        <option value="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/RegexMathingAction.java" />
+        <option value="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/InternalState.java" />
+        <option value="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/WhiteSpaceAppendAction.java" />
+        <option value="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/StartAction.java" />
+        <option value="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/RegexMatchingAppendAction.java" />
+        <option value="$PROJECT_DIR$/src/com/vanderkast/etm/lib/cursor/Cursor.java" />
+        <option value="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/CharAction.java" />
         <option value="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/CharEqualAndAppendAction.java" />
+        <option value="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/StringAppendAction.java" />
+        <option value="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/VarNameAction.java" />
+        <option value="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/EqualSignAction.java" />
         <option value="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/ActionFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/ConstStringAction.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="432" />
     <option name="width" value="1178" />
     <option name="height" value="665" />
@@ -199,57 +168,59 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="etm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="etm" type="462c0819:PsiDirectoryNode" />
+              <item name="easy_turing_machine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easy_turing_machine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="etm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="etm" type="462c0819:PsiDirectoryNode" />
+              <item name="easy_turing_machine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easy_turing_machine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="etm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="etm" type="462c0819:PsiDirectoryNode" />
+              <item name="easy_turing_machine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easy_turing_machine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="etm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="etm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="etm" type="462c0819:PsiDirectoryNode" />
+              <item name="easy_turing_machine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easy_turing_machine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="etm" type="462c0819:PsiDirectoryNode" />
               <item name="ao_finder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="etm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="etm" type="462c0819:PsiDirectoryNode" />
+              <item name="easy_turing_machine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easy_turing_machine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="etm" type="462c0819:PsiDirectoryNode" />
               <item name="ao_finder" type="462c0819:PsiDirectoryNode" />
               <item name="actions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="etm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="etm" type="462c0819:PsiDirectoryNode" />
+              <item name="easy_turing_machine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easy_turing_machine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="etm" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="etm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="etm" type="462c0819:PsiDirectoryNode" />
+              <item name="easy_turing_machine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easy_turing_machine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="etm" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="action" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="etm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="etm" type="462c0819:PsiDirectoryNode" />
+              <item name="easy_turing_machine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easy_turing_machine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="etm" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
@@ -259,12 +230,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559078350002" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunDashboard">
@@ -301,14 +274,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559069649864</updated>
+      <workItem from="1559124425565" duration="6698000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6698000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26009694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -317,8 +294,10 @@
       <window_info id="Captures" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290653" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.24711908" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38668373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -346,6 +325,9 @@
       <window_info anchor="right" id="Flutter Outline" order="13" />
       <window_info anchor="right" id="Maven" order="14" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -400,34 +382,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/lib/FileCursor.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/FilterInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="162" column="19" lean-forward="true" selection-start-line="162" selection-start-column="19" selection-end-line="163" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/beans/EventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="278" column="13" selection-start-line="278" selection-start-column="13" selection-end-line="278" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/event/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/event/EventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/FilterInputStream.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/beans/EventHandler.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/event/Event.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/event/EventHandler.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/lib/Machine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -435,31 +393,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/ActionChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/ActionChecker.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/lib/action/ActionType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/lib/action/ActionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/lib/cursor/Cursor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -479,17 +417,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/lib/action/Action.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/lib/cursor/CursorException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/lib/InternalState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="225">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#215#216#0" expanded="true" />
@@ -502,87 +440,241 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/lib/cursor/CursorException.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/HAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/StartAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="135">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/lib/action/ActionException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="2368" column="63" lean-forward="true" selection-start-line="2366" selection-start-column="40" selection-end-line="2368" selection-end-column="63" />
           <folding>
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#111724#111725#0" expanded="true" />
+            <element signature="e#111781#111782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/regex/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="1061" column="18" selection-start-line="1061" selection-start-column="18" selection-end-line="1061" selection-end-column="18" />
+          <folding>
+            <element signature="e#49703#49704#0" expanded="true" />
+            <element signature="e#49733#49734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/CharListEqualAndAppendAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/lib/action/ActionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/StartAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <folding>
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/lib/cursor/Cursor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/RegexMatchingAppendAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/InternalState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/VarNameAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="method#handlePointAsVarNameStart#0;class#VarNameAction#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/StringAppendAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/CharEqualAndAppendAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state>
+          <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/HAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/CharAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="105">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/lib/action/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/WhiteSpaceAppendAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/EqualSignAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="20" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/ActionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="285">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanderkast/etm/ao_finder/actions/ConstStringAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -1,6 +1,5 @@
 package com.vanderkast.etm.ao_finder;
 
-import com.vanderkast.etm.lib.InternalState;
 import com.vanderkast.etm.lib.action.Action;
 import com.vanderkast.etm.lib.action.ActionException;
 import com.vanderkast.etm.lib.cursor.CursorException;

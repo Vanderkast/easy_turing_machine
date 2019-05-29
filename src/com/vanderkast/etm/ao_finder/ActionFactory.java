@@ -1,26 +1,23 @@
 package com.vanderkast.etm.ao_finder;
 
-import com.vanderkast.etm.ao_finder.actions.CharEqualAndAppendAction;
-import com.vanderkast.etm.ao_finder.actions.StartAction;
+import com.vanderkast.etm.ao_finder.actions.*;
 import com.vanderkast.etm.lib.action.Action;
 
-public class ActionFactory extends com.vanderkast.etm.lib.action.ActionFactory {
-    @Override
-    public Action get() {
-        if(state.get().isEmpty())
-            return new StartAction(state);
-        if(lastOfState().equals('c'))
-            return new CharEqualAndAppendAction(state,'h');
-        if(lastOfState().equals('h'))
-            return new CharEqualAndAppendAction(state,'a');
-        if(lastOfState().equals('a'))
-            return new CharEqualAndAppendAction(state,'r');
-        if(lastOfState().equals('a'))
-            return new CharEqualAndAppendAction(state,'r');
-        return null;
+public class ActionFactory {
+    InternalState state;
+
+    public ActionFactory(InternalState state) {
+        this.state = state;
     }
 
-    Character lastOfState(){
-        return state.get().get(state.get().size());
+    public Action get() {
+        if (!state.isStringAdded())
+            return new StringAppendAction(state);
+        if(!state.isNameAdded())
+            return new VarNameAction(state);
+        if(!state.isEqualSignAdded())
+            return new EqualSignAction(state);
+        if(!state.isConstantAdded())
     }
 }
+// String name = "hello" ;

@@ -1,7 +1,7 @@
 package com.vanderkast.etm.ao_finder.actions;
 
 import com.vanderkast.etm.ao_finder.CharAction;
-import com.vanderkast.etm.lib.InternalState;
+import com.vanderkast.etm.ao_finder.InternalState;
 import com.vanderkast.etm.lib.action.ActionException;
 import com.vanderkast.etm.lib.action.ActionType;
 import com.vanderkast.etm.lib.cursor.Cursor;
